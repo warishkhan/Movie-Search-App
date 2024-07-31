@@ -1,0 +1,32 @@
+.moviesDetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(15, 13, 13);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.scrollable{
+    display: flex;
+    justify-content: space-evenly !important;
+    align-items: center;
+}
+
+@media screen and (max-width:768px) {
+    .moviesDetails{
+        flex-direction: column;
+    }
+    .scrollable{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1200px) {
+    .scrollable{
+       display: grid;
+       grid-template-columns: repeat(3, 1fr); 
+       gap: 10px;
+    }
+}
