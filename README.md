@@ -1,6 +1,6 @@
 <!-- Movie Search Application -->
 #Objective
-This React application allows users to search for movies using the OMDb API and displays the results in a user-friendly interface.
+This React application allows users to search for movies using the TMDb API and displays the results in a user-friendly interface.
 
 #Features
 Search Bar: Users can enter a search term to find movies.
